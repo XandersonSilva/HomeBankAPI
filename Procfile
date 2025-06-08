@@ -1,1 +1,1 @@
-web: target/HomeBankAPI-3.5.0.jar
+web: java -jar target/HomeBankAPI-3.5.0.jar

@@ -102,35 +102,29 @@ A base da URL para os endpoints é `http://localhost:8080` para execução local
 *   **Exemplo de Resposta (200 OK)**:
     ```json
     {
-      "id": 1,
       "name": "João da Silva",
       "account": {
-        "id": 101,
         "number": "12345-6",
         "agency": "0001",
         "balance": 1500.00,
         "limit": 500.00
       },
       "card": {
-        "id": 201,
         "number": "1111222233334444",
         "limit": 2000.00
       },
       "features": [
         {
-          "id": 301,
           "icon": "icon_transfer",
           "description": "Transferências"
         },
         {
-          "id": 302,
           "icon": "icon_payment",
           "description": "Pagamentos"
         }
       ],
       "news": [
         {
-          "id": 401,
           "icon": "icon_promo",
           "description": "Promoções Exclusivas"
         }
